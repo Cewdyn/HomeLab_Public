@@ -72,6 +72,12 @@ services:
         tag: "app"
         url: "http://192.168.50.121:3000/login"
         target: "_blank" # optional html a tag target attribute
+      - name: "Kube-Dashboard"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/kubernetes-dashboard.png"
+        subtitle: "Cluster Service Dashboard"
+        tag: "app"
+        url: "http://192.168.50.124:3000/#/login"
+        target: "_blank" # optional html a tag target attribute
       - name: "OctoPrint"
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/octoprint.png"
         subtitle: "3D Printer Monitoring"
