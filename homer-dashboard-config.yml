@@ -68,9 +68,9 @@ services:
     items:
       - name: "Grafana"
         logo: "assets/tools/sample.png"
-        subtitle: "Pi Cluster Monitoring"
+        subtitle: "Cluster Monitoring"
         tag: "app"
-        url: "https://10.10.30.13/login.html/"
+        url: "http://192.168.50.121:3000/login"
         target: "_blank" # optional html a tag target attribute
       - name: "OctoPi"
         logo: "assets/tools/sample.png"
