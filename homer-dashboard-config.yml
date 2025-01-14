@@ -67,13 +67,13 @@ services:
     icon: "fas fa-cloud"
     items:
       - name: "Grafana"
-        logo: "https://github.com/NX211/homer-icons/blob/f19ce001a0e863255993ff31671da429b676c8e2/png/grafana.png"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/grafana.png"
         subtitle: "Cluster Monitoring"
         tag: "app"
         url: "http://192.168.50.121:3000/login"
         target: "_blank" # optional html a tag target attribute
       - name: "OctoPrint"
-        logo: "https://github.com/NX211/homer-icons/blob/f19ce001a0e863255993ff31671da429b676c8e2/png/octoprint.png"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/octoprint.png"
         subtitle: "3D Printer Monitoring"
         tag: "app"
         url: "https://octopi.local"
@@ -82,7 +82,7 @@ services:
     icon: "fas fa-cloud"
     items:
       - name: "ProxMoxx"
-        logo: "https://github.com/NX211/homer-icons/blob/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
         subtitle: "Virtualization Cluster"
         tag: "app"
         url: "https://192.168.50.232:8006/"
@@ -91,13 +91,13 @@ services:
     icon: "fas fa-cloud"
     items:
       - name: "Plex"
-        logo: "https://github.com/NX211/homer-icons/blob/f19ce001a0e863255993ff31671da429b676c8e2/png/plex.png"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/plex.png"
         subtitle: "Media Server"
         tag: "app"
         url: "https://10.10.2.101:32400"
         target: "_blank" # optional html a tag target attribute
       - name: "Truenas"
-        logo: "https://github.com/NX211/homer-icons/blob/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
         subtitle: "Storage Server"
         tag: "app"
         url: "https://truenas.local"
