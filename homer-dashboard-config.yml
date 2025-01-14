@@ -63,6 +63,31 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
+  
+
+  - name: "Media Server"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Plex"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/plex.png"
+        subtitle: "Media Server"
+        tag: "app"
+        url: "https://10.10.2.101:32400"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Truenas"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
+        subtitle: "Storage Server"
+        tag: "app"
+        url: "https://truenas.local"
+  - name: "Virtualization"
+    icon: "fas fa-cloud"
+    items:
+      - name: "ProxMoxx"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
+        subtitle: "Virtualization Cluster"
+        tag: "app"
+        url: "https://192.168.50.232:8006/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Monitoring"
     icon: "fas fa-cloud"
     items:
@@ -84,26 +109,3 @@ services:
         tag: "app"
         url: "https://octopi.local"
         target: "_blank" # optional html a tag target attribute
-  - name: "Virtualization"
-    icon: "fas fa-cloud"
-    items:
-      - name: "ProxMoxx"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
-        subtitle: "Virtualization Cluster"
-        tag: "app"
-        url: "https://192.168.50.232:8006/"
-        target: "_blank" # optional html a tag target attribute
-  - name: "Media Server"
-    icon: "fas fa-cloud"
-    items:
-      - name: "Plex"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/plex.png"
-        subtitle: "Media Server"
-        tag: "app"
-        url: "https://10.10.2.101:32400"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Truenas"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
-        subtitle: "Storage Server"
-        tag: "app"
-        url: "https://truenas.local"
