@@ -54,6 +54,10 @@ links:
     icon: "fab fa-github"
     url: "https://github.com/cewdyn"
     target: "_blank" # optional html a tag target attribute
+  - name: "HomeLab Repo"
+    icon: "fab fa-github"
+    url: "https://github.com/Cewdyn/homelab"
+    target: "_blank" # optional html a tag target attribute
   - name: "Wiki"
     icon: "fas fa-book"
     url: "https://www.wikipedia.org/"
@@ -65,8 +69,8 @@ links:
 services:
   
 
-  - name: "Media Server"
-    icon: "fas fa-cloud"
+  - name: "Media"
+    icon: "fa-solid fa-play"
     items:
       - name: "Plex"
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/plex.png"
@@ -80,7 +84,7 @@ services:
         tag: "app"
         url: "https://truenas.local"
   - name: "Virtualization"
-    icon: "fas fa-cloud"
+    icon: "fa-solid fa-computer"
     items:
       - name: "ProxMoxx"
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
@@ -88,8 +92,17 @@ services:
         tag: "app"
         url: "https://192.168.50.232:8006/"
         target: "_blank" # optional html a tag target attribute
+  - name: "Home"
+    icon: "fa-duotone fa-solid fa-house"
+    items:
+      - name: "Home Assistant"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/home-assistant.png"
+        subtitle: "Home Automation"
+        tag: "app"
+        url: "http://homeassistant.local:8123/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Monitoring"
-    icon: "fas fa-cloud"
+    icon: "fa-solid fa-magnifying-glass"
     items:
       - name: "Grafana"
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/grafana.png"
