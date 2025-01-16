@@ -76,7 +76,7 @@ services:
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/plex.png"
         subtitle: "Media Server"
         tag: "app"
-        url: "https://10.10.2.101:32400"
+        url: "https://app.plex.tv/desktop/#!/"
         target: "_blank" # optional html a tag target attribute
       - name: "Truenas"
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
