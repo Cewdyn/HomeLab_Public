@@ -69,20 +69,7 @@ links:
 services:
   
 
-  - name: "Media"
-    icon: "fa-solid fa-play"
-    items:
-      - name: "Plex"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/plex.png"
-        subtitle: "Media Server"
-        tag: "app"
-        url: "https://app.plex.tv/desktop/#!/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Truenas"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
-        subtitle: "Storage Server"
-        tag: "app"
-        url: "https://truenas.local"
+  
   - name: "Virtualization"
     icon: "fa-solid fa-computer"
     items:
@@ -101,6 +88,24 @@ services:
         tag: "app"
         url: "http://homeassistant.local:8123/"
         target: "_blank" # optional html a tag target attribute
+  - name: "Networking"
+    icon: "fa-solid fa-ethernet"
+    items:
+      - name: "PiHole"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/pihole.png"
+        subtitle: "DNS Server and AdGuard"
+        tag: "app"
+        url: "http://192.168.50.125/admin"
+        target: "_blank"
+  - name: "Remote"
+    icon: "fa-solid fa-ethernet"
+    items:
+      - name: "PiKVM"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/pikvm.png"
+        subtitle: "Remote Access"
+        tag: "app"
+        url: "http://192.168.50.168/kvm"
+        target: "_blank"
   - name: "Monitoring"
     icon: "fa-solid fa-magnifying-glass"
     items:
@@ -122,21 +127,17 @@ services:
         tag: "app"
         url: "https://octopi.local"
         target: "_blank" # optional html a tag target attribute
-  - name: "Networking"
-    icon: "fa-solid fa-ethernet"
+  - name: "Media"
+    icon: "fa-solid fa-play"
     items:
-      - name: "PiHole"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/pihole.png"
-        subtitle: "DNS Server and AdGuard"
+      - name: "Plex"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/plex.png"
+        subtitle: "Media Server"
         tag: "app"
-        url: "http://192.168.50.125/admin"
-        target: "_blank"
-  - name: "Remote"
-    icon: "fa-solid fa-ethernet"
-    items:
-      - name: "PiKVM"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/pikvm.png"
-        subtitle: "Remote Access"
+        url: "https://app.plex.tv/desktop/#!/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Truenas"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
+        subtitle: "Storage Server"
         tag: "app"
-        url: "http://192.168.50.168"
-        target: "_blank"
+        url: "https://truenas.local"
