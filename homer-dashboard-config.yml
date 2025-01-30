@@ -131,3 +131,12 @@ services:
         tag: "app"
         url: "http://192.168.50.125/admin"
         target: "_blank"
+  - name: "Remote"
+    icon: "fa-solid fa-ethernet"
+    items:
+      - name: "PiKVM"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/pikvm.png"
+        subtitle: "Remote Access"
+        tag: "app"
+        url: "http://192.168.50.168"
+        target: "_blank"
