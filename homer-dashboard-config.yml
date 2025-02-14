@@ -101,7 +101,7 @@ services:
     icon: "fa-solid fa-ethernet"
     items:
       - name: "PiKVM"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/refs/heads/master/png/lemonldapng.png"
+        logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/14c3d3397746f72492570f200416ba465aed0f8b/png/pikvm.png"
         subtitle: "Remote Access"
         tag: "app"
         url: "http://192.168.50.168/kvm"
@@ -143,7 +143,7 @@ services:
         url: "https://truenas.local"
         target: "_blank" # optional html a tag target attribute
       - name: "Immich"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/14c3d3397746f72492570f200416ba465aed0f8b/png/immich.png"
+        logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/14c3d3397746f72492570f200416ba465aed0f8b/png/immich.png"
         subtitle: "Photos"
         tag: "app"
         url: "http://http://192.168.50.128:2283/"
