@@ -146,5 +146,5 @@ services:
         logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/14c3d3397746f72492570f200416ba465aed0f8b/png/immich.png"
         subtitle: "Photos"
         tag: "app"
-        url: "http://http://192.168.50.128:2283/"
+        url: "http://192.168.50.128:2283/"
         target: "_blank" # optional html a tag target attribute
