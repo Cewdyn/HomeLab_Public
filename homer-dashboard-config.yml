@@ -92,7 +92,7 @@ services:
     icon: "fa-solid fa-ethernet"
     items:
       - name: "PiHole"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/pihole.png"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/pi-hole.png"
         subtitle: "DNS Server and AdGuard"
         tag: "app"
         url: "http://192.168.50.125/admin"
@@ -141,3 +141,10 @@ services:
         subtitle: "Storage Server"
         tag: "app"
         url: "https://truenas.local"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Immich"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/immich.png"
+        subtitle: "Photos"
+        tag: "app"
+        url: "http://http://192.168.50.128:2283/"
+        target: "_blank" # optional html a tag target attribute
