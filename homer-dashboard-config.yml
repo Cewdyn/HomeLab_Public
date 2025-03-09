@@ -77,7 +77,7 @@ services:
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
         subtitle: "Virtualization Cluster"
         tag: "app"
-        url: "https://192.168.50.232:8006/"
+        url: "https://192.168.50.190:8006/"
         target: "_blank" # optional html a tag target attribute
   - name: "Home"
     icon: "fa-duotone fa-solid fa-house"
