@@ -70,7 +70,7 @@ services:
   
 
   
-  - name: "Virtualization"
+  - name: "HomeLab"
     icon: "fa-solid fa-computer"
     items:
       - name: "ProxMoxx"
@@ -79,6 +79,25 @@ services:
         tag: "app"
         url: "https://192.168.50.190:8006/"
         target: "_blank" # optional html a tag target attribute
+      - name: "LabNAS"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
+        subtitle: "HomeLab TrueNAS Server"
+        tag: "app"
+        url: "https://192.168.50.28"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Grafana"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/grafana.png"
+        subtitle: "Cluster Monitoring"
+        tag: "app"
+        url: "http://192.168.50.121:3000/login"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Kube-Dashboard"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/kubernetes-dashboard.png"
+        subtitle: "Cluster Service Dashboard"
+        tag: "app"
+        url: "http://192.168.50.124:3000/#/login"
+        target: "_blank" # optional html a tag target attribute
+      
   - name: "Home"
     icon: "fa-duotone fa-solid fa-house"
     items:
@@ -106,21 +125,9 @@ services:
         tag: "app"
         url: "http://192.168.50.168/kvm"
         target: "_blank"
-  - name: "Monitoring"
+  - name: "Design"
     icon: "fa-solid fa-magnifying-glass"
     items:
-      - name: "Grafana"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/grafana.png"
-        subtitle: "Cluster Monitoring"
-        tag: "app"
-        url: "http://192.168.50.121:3000/login"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Kube-Dashboard"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/kubernetes-dashboard.png"
-        subtitle: "Cluster Service Dashboard"
-        tag: "app"
-        url: "http://192.168.50.124:3000/#/login"
-        target: "_blank" # optional html a tag target attribute
       - name: "OctoPrint"
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/octoprint.png"
         subtitle: "3D Printer Monitoring"
