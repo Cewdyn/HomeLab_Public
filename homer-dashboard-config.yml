@@ -68,27 +68,6 @@ links:
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
   
-  - name: "Media"
-    icon: "fa-solid fa-play"
-    items:
-      - name: "Plex"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/plex.png"
-        subtitle: "Media Server"
-        tag: "app"
-        url: "https://app.plex.tv/desktop/#!/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Truenas"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
-        subtitle: "Storage Server"
-        tag: "app"
-        url: "https://truenas.local"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Immich"
-        logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/14c3d3397746f72492570f200416ba465aed0f8b/png/immich.png"
-        subtitle: "Photos"
-        tag: "app"
-        url: "http://192.168.50.128:2283/"
-        target: "_blank" # optional html a tag target attribute
   - name: "ProxMoxx"
     icon: "fa-solid fa-person-through-window"
     items:
@@ -119,6 +98,12 @@ services:
   - name: "HomeLab"
     icon: "fa-solid fa-server"
     items:
+      - name: "Truenas"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
+        subtitle: "Storage Server"
+        tag: "app"
+        url: "https://truenas.local"
+        target: "_blank" # optional html a tag target attribute
       - name: "LabNAS"
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
         subtitle: "HomeLab TrueNAS Server"
@@ -137,6 +122,21 @@ services:
         tag: "app"
         url: "http://192.168.50.124:3000/#/login"
         target: "_blank" # optional html a tag target attribute    
+  - name: "Media"
+    icon: "fa-solid fa-play"
+    items:
+      - name: "Plex"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/plex.png"
+        subtitle: "Media Server"
+        tag: "app"
+        url: "https://app.plex.tv/desktop/#!/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Immich"
+        logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/14c3d3397746f72492570f200416ba465aed0f8b/png/immich.png"
+        subtitle: "Photos"
+        tag: "app"
+        url: "http://192.168.50.128:2283/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Home"
     icon: "fa-duotone fa-solid fa-house"
     items:
