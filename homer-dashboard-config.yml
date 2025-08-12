@@ -90,7 +90,7 @@ services:
         url: "http://192.168.50.128:2283/"
         target: "_blank" # optional html a tag target attribute
   - name: "ProxMoxx"
-    icon: "fa-solid fa-hexagon-nodes"
+    icon: "fa-solid fa-person-through-window"
     items:
       - name: "ProxMoxx Taiga"
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
