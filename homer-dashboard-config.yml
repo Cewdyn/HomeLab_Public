@@ -68,29 +68,27 @@ links:
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
   
-
-  - name: "HomeLab"
-    icon: "fa-solid fa-computer"
+  - name: "Media"
+    icon: "fa-solid fa-play"
     items:
-      - name: "LabNAS"
+      - name: "Plex"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/plex.png"
+        subtitle: "Media Server"
+        tag: "app"
+        url: "https://app.plex.tv/desktop/#!/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Truenas"
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
-        subtitle: "HomeLab TrueNAS Server"
+        subtitle: "Storage Server"
         tag: "app"
-        url: "https://192.168.50.28"
+        url: "https://truenas.local"
         target: "_blank" # optional html a tag target attribute
-      - name: "Grafana"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/grafana.png"
-        subtitle: "Cluster Monitoring"
+      - name: "Immich"
+        logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/14c3d3397746f72492570f200416ba465aed0f8b/png/immich.png"
+        subtitle: "Photos"
         tag: "app"
-        url: "http://192.168.50.121:3000/login"
+        url: "http://192.168.50.128:2283/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Kube-Dashboard"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/kubernetes-dashboard.png"
-        subtitle: "Cluster Service Dashboard"
-        tag: "app"
-        url: "http://192.168.50.124:3000/#/login"
-        target: "_blank" # optional html a tag target attribute
-
   - name: "ProxMoxx"
     icon: "fa-solid fa-hexagon-nodes"
     items:
@@ -118,7 +116,27 @@ services:
         tag: "app"
         url: "https://192.168.50.232:8006/"
         target: "_blank" # optional html a tag target attribute
-      
+  - name: "HomeLab"
+    icon: "fa-solid fa-server"
+    items:
+      - name: "LabNAS"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
+        subtitle: "HomeLab TrueNAS Server"
+        tag: "app"
+        url: "https://192.168.50.28"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Grafana"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/grafana.png"
+        subtitle: "Cluster Monitoring"
+        tag: "app"
+        url: "http://192.168.50.121:3000/login"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Kube-Dashboard"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/kubernetes-dashboard.png"
+        subtitle: "Cluster Service Dashboard"
+        tag: "app"
+        url: "http://192.168.50.124:3000/#/login"
+        target: "_blank" # optional html a tag target attribute    
   - name: "Home"
     icon: "fa-duotone fa-solid fa-house"
     items:
@@ -137,16 +155,7 @@ services:
         tag: "app"
         url: "http://192.168.50.125/admin"
         target: "_blank" 
-  - name: "Remote"
-    icon: "fa-solid fa-ethernet"
-    items:
-      - name: "PiKVM"
-        logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/14c3d3397746f72492570f200416ba465aed0f8b/png/pikvm.png"
-        subtitle: "Remote Access"
-        tag: "app"
-        url: "http://192.168.50.168/kvm"
-        target: "_blank"
-  - name: "Design"
+  - name: "Misc"
     icon: "fa-solid fa-magnifying-glass"
     items:
       - name: "OctoPrint"
@@ -155,24 +164,4 @@ services:
         tag: "app"
         url: "https://octopi.local"
         target: "_blank" # optional html a tag target attribute
-  - name: "Media"
-    icon: "fa-solid fa-play"
-    items:
-      - name: "Plex"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/plex.png"
-        subtitle: "Media Server"
-        tag: "app"
-        url: "https://app.plex.tv/desktop/#!/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Truenas"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
-        subtitle: "Storage Server"
-        tag: "app"
-        url: "https://truenas.local"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Immich"
-        logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/14c3d3397746f72492570f200416ba465aed0f8b/png/immich.png"
-        subtitle: "Photos"
-        tag: "app"
-        url: "http://192.168.50.128:2283/"
-        target: "_blank" # optional html a tag target attribute
+
