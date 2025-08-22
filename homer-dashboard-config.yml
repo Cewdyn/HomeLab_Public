@@ -149,6 +149,12 @@ services:
   - name: "Networking"
     icon: "fa-solid fa-ethernet"
     items:
+      - name: "WireGuard"
+        logo: "https://github.com/NX211/homer-icons/blob/7f15a0ec749f4604b9f18e5bd4ee955002d8c896/png/wireguard.png"
+        subtitle: "VPN"
+        tag: "app"
+        url: "http://192.168.50.222:10086/"
+        target: "_blank" 
       - name: "PiHole"
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/pihole.png"
         subtitle: "DNS Server and AdGuard"
