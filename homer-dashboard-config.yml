@@ -68,6 +68,33 @@ links:
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
   
+  - name: "Services"
+    icon: "fa-solid fa-play"
+    items:
+      - name: "Plex"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/plex.png"
+        subtitle: "Media Server"
+        tag: "app"
+        url: "https://app.plex.tv/desktop/#!/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Mealie"
+        logo: "https://cdn.jsdelivr.net/gh/selfhst/icons/png/mealie.png"
+        subtitle: "Recipes + Shopping Lists"
+        tag: "app"
+        url: "http://192.168.50.130:9000/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Immich"
+        logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/14c3d3397746f72492570f200416ba465aed0f8b/png/immich.png"
+        subtitle: "Photos"
+        tag: "app"
+        url: "http://192.168.50.128:2283/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "RomM"
+        logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/c8c619e76a3969a9a5348c1bb84dc33c8380d93c/png/romm.png"
+        subtitle: "Emulation"
+        tag: "app"
+        url: "http://192.168.50.254:30061/"
+        target: "_blank" # optional html a tag target attribute
   - name: "ProxMoxx"
     icon: "fa-solid fa-person-through-window"
     items:
@@ -122,27 +149,6 @@ services:
         tag: "app"
         url: "http://192.168.50.124:3000/#/login"
         target: "_blank" # optional html a tag target attribute    
-  - name: "Media"
-    icon: "fa-solid fa-play"
-    items:
-      - name: "Plex"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/plex.png"
-        subtitle: "Media Server"
-        tag: "app"
-        url: "https://app.plex.tv/desktop/#!/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Immich"
-        logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/14c3d3397746f72492570f200416ba465aed0f8b/png/immich.png"
-        subtitle: "Photos"
-        tag: "app"
-        url: "http://192.168.50.128:2283/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "RomM"
-        logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/c8c619e76a3969a9a5348c1bb84dc33c8380d93c/png/romm.png"
-        subtitle: "Emulation"
-        tag: "app"
-        url: "http://192.168.50.254:30061/"
-        target: "_blank" # optional html a tag target attribute
   - name: "Home"
     icon: "fa-duotone fa-solid fa-house"
     items:
