@@ -95,33 +95,6 @@ services:
         tag: "app"
         url: "http://192.168.50.254:30061/"
         target: "_blank" # optional html a tag target attribute
-  - name: "ProxMoxx"
-    icon: "fa-solid fa-person-through-window"
-    items:
-      - name: "ProxMoxx Taiga"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
-        subtitle: "ProxMoxx Tiny Powerhouse"
-        tag: "app"
-        url: "https://192.168.50.5:8006/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "ProxMoxx Air"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
-        subtitle: "ProxMoxx NAS"
-        tag: "app"
-        url: "https://192.168.50.190:8006/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "ProxMoxx Mobile"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
-        subtitle: "ProxMoxx Development Env"
-        tag: "app"
-        url: "https://192.168.50.27:8006/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "ProxMoxx Jail"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
-        subtitle: "ProxMoxx Minimalist Jail"
-        tag: "app"
-        url: "https://192.168.50.232:8006/"
-        target: "_blank" # optional html a tag target attribute
   - name: "HomeLab"
     icon: "fa-solid fa-server"
     items:
@@ -149,6 +122,27 @@ services:
         tag: "app"
         url: "http://192.168.50.124:3000/#/login"
         target: "_blank" # optional html a tag target attribute    
+  - name: "ProxMoxx"
+    icon: "fa-solid fa-person-through-window"
+    items:
+      - name: "ProxMoxx Taiga"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
+        subtitle: "ProxMoxx Tiny Powerhouse"
+        tag: "app"
+        url: "https://192.168.50.5:8006/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "ProxMoxx Air"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
+        subtitle: "ProxMoxx NAS"
+        tag: "app"
+        url: "https://192.168.50.190:8006/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "ProxMoxx Jail"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
+        subtitle: "ProxMoxx Minimalist Jail"
+        tag: "app"
+        url: "https://192.168.50.232:8006/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Home"
     icon: "fa-duotone fa-solid fa-house"
     items:
