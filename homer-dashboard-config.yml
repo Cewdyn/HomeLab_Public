@@ -77,18 +77,25 @@ services:
         tag: "app"
         url: "https://app.plex.tv/desktop/#!/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Mealie"
-        logo: "https://cdn.jsdelivr.net/gh/selfhst/icons/png/mealie.png"
-        subtitle: "Recipes + Shopping Lists"
-        tag: "app"
-        url: "http://192.168.50.130:9000/"
-        target: "_blank" # optional html a tag target attribute
       - name: "Immich"
         logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/14c3d3397746f72492570f200416ba465aed0f8b/png/immich.png"
         subtitle: "Photos"
         tag: "app"
         url: "http://192.168.50.128:2283/"
         target: "_blank" # optional html a tag target attribute
+      - name: "Navidrome"
+        logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/refs/heads/main/svg/navidrome.svg"
+        subtitle: "Music"
+        tag: "app"
+        url: "http://192.168.50.254:30043//"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Mealie"
+        logo: "https://cdn.jsdelivr.net/gh/selfhst/icons/png/mealie.png"
+        subtitle: "Recipes + Shopping Lists"
+        tag: "app"
+        url: "http://192.168.50.130:9000/"
+        target: "_blank" # optional html a tag target attribute
+
       - name: "RomM"
         logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/c8c619e76a3969a9a5348c1bb84dc33c8380d93c/png/romm.png"
         subtitle: "Emulation"
@@ -103,12 +110,6 @@ services:
         subtitle: "Storage Server"
         tag: "app"
         url: "https://192.168.50.254"
-        target: "_blank" # optional html a tag target attribute
-      - name: "LabNAS"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
-        subtitle: "HomeLab TrueNAS Server"
-        tag: "app"
-        url: "https://192.168.50.28"
         target: "_blank" # optional html a tag target attribute
       - name: "Grafana"
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/grafana.png"
