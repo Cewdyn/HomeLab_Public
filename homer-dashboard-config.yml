@@ -83,6 +83,12 @@ services:
         tag: "app"
         url: "http://192.168.50.128:2283/"
         target: "_blank" # optional html a tag target attribute
+      - name: "ErsatzTV"
+        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/ersatztv.png"
+        subtitle: "TV Channels for your Media"
+        tag: "app"
+        url: "http://192.168.50.131:8409/"
+        target: "_blank" # optional html a tag target attribute
       - name: "Navidrome"
         logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/refs/heads/main/svg/navidrome.svg"
         subtitle: "Music"
@@ -95,7 +101,6 @@ services:
         tag: "app"
         url: "http://192.168.50.130:9000/"
         target: "_blank" # optional html a tag target attribute
-
       - name: "RomM"
         logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/c8c619e76a3969a9a5348c1bb84dc33c8380d93c/png/romm.png"
         subtitle: "Emulation"
