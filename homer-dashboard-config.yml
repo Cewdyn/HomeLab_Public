@@ -67,8 +67,7 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  
-  - name: "Services"
+  - name: "Media"
     icon: "fa-solid fa-play"
     items:
       - name: "Plex"
@@ -95,6 +94,14 @@ services:
         tag: "app"
         url: "http://192.168.50.254:30043//"
         target: "_blank" # optional html a tag target attribute
+  - name: "Services"
+    icon: "fa-solid fa-icons"
+    items:
+      - name: "qBittorrent"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/refs/heads/master/svg/qbittorrent.svg"
+        url: "http://192.168.50.132:8080/"
+        tag: "app"
+        target: "_blank"
       - name: "Mealie"
         logo: "https://cdn.jsdelivr.net/gh/selfhst/icons/png/mealie.png"
         subtitle: "Recipes + Shopping Lists"
