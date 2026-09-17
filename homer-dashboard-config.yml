@@ -94,6 +94,30 @@ services:
         tag: "app"
         url: "http://192.168.50.254:30043//"
         target: "_blank" # optional html a tag target attribute
+      - name: "Sonarr"
+        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/sonarr.png"
+        subtitle: "TV Show Management"
+        tag: "app"
+        url: "http://192.168.50.133:8989/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Radarr"
+        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/radarr.png"
+        subtitle: "Movie Management"
+        tag: "app"
+        url: "http://192.168.50.134:7878/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Lidarr"
+        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/lidarr.png"
+        subtitle: "Music Management"
+        tag: "app"
+        url: "http://192.168.50.135:8686/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Prowlarr"
+        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/prowlarr.png"
+        subtitle: "Indexer Management"
+        tag: "app"
+        url: "http://192.168.50.136:9696/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Services"
     icon: "fa-solid fa-icons"
     items:
