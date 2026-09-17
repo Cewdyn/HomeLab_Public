@@ -67,6 +67,27 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
+  - name: "ProxMoxx"
+    icon: "fa-solid fa-person-through-window"
+    items:
+      - name: "ProxMoxx Taiga"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
+        subtitle: "ProxMoxx Tiny Powerhouse"
+        tag: "app"
+        url: "https://192.168.50.5:8006/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "ProxMoxx Air"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
+        subtitle: "ProxMoxx NAS"
+        tag: "app"
+        url: "https://192.168.50.190:8006/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "ProxMoxx Jail"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
+        subtitle: "ProxMoxx Minimalist Jail"
+        tag: "app"
+        url: "https://192.168.50.232:8006/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Media"
     icon: "fa-solid fa-play"
     items:
@@ -94,6 +115,20 @@ services:
         tag: "app"
         url: "http://192.168.50.254:30043//"
         target: "_blank" # optional html a tag target attribute
+  - name: "Asset Aquisition"
+    icon: "fa-solid fa-download"
+    items:
+      - name: "qBittorrent"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/refs/heads/master/svg/qbittorrent.svg"
+        url: "http://192.168.50.132:8080/"
+        tag: "app"
+        target: "_blank"
+      - name: "Overseerr"
+        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/overseerr.png"
+        subtitle: "Media Requests"
+        tag: "app"
+        url: "http://192.168.50.137:5055/"
+        target: "_blank" # optional html a tag target attribute
       - name: "Sonarr"
         logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/sonarr.png"
         subtitle: "TV Show Management"
@@ -118,20 +153,15 @@ services:
         tag: "app"
         url: "http://192.168.50.136:9696/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Overseerr"
-        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/overseerr.png"
-        subtitle: "Media Requests"
-        tag: "app"
-        url: "http://192.168.50.137:5055/"
-        target: "_blank" # optional html a tag target attribute
   - name: "Services"
     icon: "fa-solid fa-icons"
     items:
-      - name: "qBittorrent"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/refs/heads/master/svg/qbittorrent.svg"
-        url: "http://192.168.50.132:8080/"
+      - name: "Home Assistant"
+        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/home-assistant.png"
+        subtitle: "Home Automation"
         tag: "app"
-        target: "_blank"
+        url: "http://192.168.50.203:8123/"
+        target: "_blank" # optional html a tag target attribute
       - name: "Mealie"
         logo: "https://cdn.jsdelivr.net/gh/selfhst/icons/png/mealie.png"
         subtitle: "Recipes + Shopping Lists"
@@ -165,36 +195,6 @@ services:
         tag: "app"
         url: "http://192.168.50.124:3000/#/login"
         target: "_blank" # optional html a tag target attribute    
-  - name: "ProxMoxx"
-    icon: "fa-solid fa-person-through-window"
-    items:
-      - name: "ProxMoxx Taiga"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
-        subtitle: "ProxMoxx Tiny Powerhouse"
-        tag: "app"
-        url: "https://192.168.50.5:8006/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "ProxMoxx Air"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
-        subtitle: "ProxMoxx NAS"
-        tag: "app"
-        url: "https://192.168.50.190:8006/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "ProxMoxx Jail"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
-        subtitle: "ProxMoxx Minimalist Jail"
-        tag: "app"
-        url: "https://192.168.50.232:8006/"
-        target: "_blank" # optional html a tag target attribute
-  - name: "Home"
-    icon: "fa-duotone fa-solid fa-house"
-    items:
-      - name: "Home Assistant"
-        logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/home-assistant.png"
-        subtitle: "Home Automation"
-        tag: "app"
-        url: "http://192.168.50.203:8123/"
-        target: "_blank" # optional html a tag target attribute
   - name: "Networking"
     icon: "fa-solid fa-ethernet"
     items:
