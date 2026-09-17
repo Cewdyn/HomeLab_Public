@@ -118,6 +118,12 @@ services:
         tag: "app"
         url: "http://192.168.50.136:9696/"
         target: "_blank" # optional html a tag target attribute
+      - name: "Overseerr"
+        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/overseerr.png"
+        subtitle: "Media Requests"
+        tag: "app"
+        url: "http://192.168.50.137:5055/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Services"
     icon: "fa-solid fa-icons"
     items:
