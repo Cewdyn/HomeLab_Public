@@ -195,6 +195,33 @@ services:
         tag: "app"
         url: "http://192.168.50.136:9696/"
         target: "_blank" # optional html a tag target attribute
+  - name: "Books"
+    icon: "fa-solid fa-book"
+    items:
+      - name: "Kavita"
+        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/kavita.png"
+        subtitle: "Ebook Library"
+        tag: "app"
+        url: "http://192.168.50.138:5000/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Audiobookshelf"
+        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/audiobookshelf.png"
+        subtitle: "Audiobooks + Podcasts"
+        tag: "app"
+        url: "http://192.168.50.141/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Calibre"
+        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/calibre.png"
+        subtitle: "Ebook Metadata + Processing"
+        tag: "app"
+        url: "http://192.168.50.140:8080/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Crosspoint Sync"
+        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/koreader.png"
+        subtitle: "E-Reader Progress Sync"
+        tag: "app"
+        url: "http://192.168.50.139:8080/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Networking"
     icon: "fa-solid fa-ethernet"
     items:
