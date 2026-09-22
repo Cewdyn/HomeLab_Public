@@ -181,7 +181,7 @@ services:
         logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/radarr.png"
         subtitle: "Movie Management"
         tag: "app"
-        url: "http://192.168.50.215:7878/"
+        url: "https://radarr.home.browen/"
         target: "_blank" # optional html a tag target attribute
       - name: "Lidarr"
         logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/lidarr.png"
