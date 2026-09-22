@@ -234,4 +234,13 @@ services:
         tag: "app"
         url: "https://octopi.local"
         target: "_blank" # optional html a tag target attribute
+  - name: "Utilities"
+    icon: "fa-solid fa-toolbox"
+    items:
+      - name: "Root CA Cert"
+        icon: "fa-solid fa-certificate"
+        subtitle: "One-tap install for internal HTTPS trust (home.browen)"
+        tag: "app"
+        url: "http://ca.home.browen/"
+        target: "_blank" # optional html a tag target attribute
 
