@@ -210,14 +210,6 @@ services:
         tag: "app"
         url: "http://192.168.50.222/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Calibre"
-        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/calibre.png"
-        # https, not http - KasmVNC's remote desktop needs a secure context (clipboard
-        # access etc.) or it shows "This website requires an https connection"
-        subtitle: "Ebook Metadata + Processing"
-        tag: "app"
-        url: "https://192.168.50.221:8181/"
-        target: "_blank" # optional html a tag target attribute
       - name: "Crosspoint Sync"
         logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/koreader.png"
         subtitle: "E-Reader Progress Sync"
