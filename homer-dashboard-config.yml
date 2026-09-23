@@ -122,7 +122,7 @@ services:
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/truenas.png"
         subtitle: "Storage Server"
         tag: "app"
-        url: "https://192.168.50.254"
+        url: "https://truenas.home.browen/"
         target: "_blank" # optional html a tag target attribute
       - name: "Grafana"
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/grafana.png"
