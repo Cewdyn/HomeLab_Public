@@ -155,7 +155,7 @@ services:
         logo: "https://raw.githubusercontent.com/NX211/homer-icons/f19ce001a0e863255993ff31671da429b676c8e2/png/proxmox.png"
         subtitle: "ProxMoxx Minimalist Jail"
         tag: "app"
-        url: "https://192.168.50.232:8006/"
+        url: "https://proxmox-jail.home.browen:8006/"
         target: "_blank" # optional html a tag target attribute
   - name: "Asset Aquisition"
     icon: "fa-solid fa-download"
