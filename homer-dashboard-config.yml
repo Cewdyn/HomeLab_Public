@@ -109,6 +109,12 @@ services:
         tag: "app"
         url: "https://mealie.home.browen/"
         target: "_blank" # optional html a tag target attribute
+      - name: "NutriTrace"
+        logo: "https://cdn.jsdelivr.net/gh/selfhst/icons/png/nutritrace.png"
+        subtitle: "Nutrition Tracker"
+        tag: "app"
+        url: "https://nutritrace.home.browen/"
+        target: "_blank" # optional html a tag target attribute
       - name: "RomM"
         logo: "https://raw.githubusercontent.com/homarr-labs/dashboard-icons/c8c619e76a3969a9a5348c1bb84dc33c8380d93c/png/romm.png"
         subtitle: "Emulation"
