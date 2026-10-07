@@ -230,7 +230,19 @@ services:
         subtitle: "DNS Server and AdGuard"
         tag: "app"
         url: "https://pihole.home.browen/admin"
-        target: "_blank" 
+        target: "_blank"
+      - name: "UniFi Cloud Gateway Ultra"
+        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/unifi.png"
+        subtitle: "Router - Device Management and Monitoring"
+        tag: "app"
+        url: "https://192.168.50.1/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "UniFi Site Manager"
+        logo: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/unifi.png"
+        subtitle: "UI.com Cloud Console (remote access, backups, MFA)"
+        tag: "app"
+        url: "https://unifi.ui.com/"
+        target: "_blank" # optional html a tag target attribute
   - name: "Misc"
     icon: "fa-solid fa-magnifying-glass"
     items:
